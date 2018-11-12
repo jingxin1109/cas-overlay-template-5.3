@@ -1,0 +1,11 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^http://cas.*",
+  "name" : "client2",
+  "id" : 10000004,
+  "description" : "This service definition authorizes all application urls that support HTTPS and IMAPS protocols.",
+  "evaluationOrder" : 10000,
+  "attributeReleasePolicy" : {
+    "@class" : "org.apereo.cas.services.ReturnAllAttributeReleasePolicy"
+  }
+}
